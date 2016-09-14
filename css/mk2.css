@@ -1,0 +1,164 @@
+
+@font-face {
+	font-family: 'mk2';
+	src: url('../img/mk2.ttf');
+	font-weight: bold;
+	font-style: monospace;
+}
+
+body {
+  background-color: #171717;
+  color: #8b8b8b;
+}
+
+h1 {
+	text-align: center;
+}
+
+h1, h2, h3, h4, a.navbar-brand {
+	font-family: mk2;
+    color: #FFB00F;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #FFB00F; 
+}
+
+h2 {
+  text-align: center;
+}
+
+div.header {
+    margin-top: 50px;
+	background: url('../img/Mk2_logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+	height: 200px;
+}
+
+div.panel {
+  background-color: #1e1e1e;
+  margin: 1em 0.5em;
+  padding: 0.5em;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 1px 2px 0px #000;
+     -moz-box-shadow: 1px 1px 2px 0px #000;
+          box-shadow: 1px 1px 2px 0px #000;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: #171717;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  border-top: 1px solid #353535;
+}
+
+
+div.choosePanel {
+  text-align: center;
+}
+div.choosePanel a img {
+	margin-bottom: 5px;
+	width: 90px;
+	height: 100px;
+}
+
+#choose-liukang {
+	background: url('../img/Mk2-choose.png') -128px -41px;
+}
+#choose-kunglao {
+	background: url('../img/Mk2-choose.png') -226px -41px;
+}
+#choose-johnnycage {
+	background: url('../img/Mk2-choose.png') -324px -41px;
+}
+#choose-reptile {
+	background: url('../img/Mk2-choose.png') -423px -41px;
+}
+#choose-subzero {
+	background: url('../img/Mk2-choose.png') -128px -148px;
+}
+#choose-shangtsung {
+	background: url('../img/Mk2-choose.png') -226px -148px;
+}
+#choose-kitana {
+	background: url('../img/Mk2-choose.png') -324px -148px;
+}
+#choose-jax {
+	background: url('../img/Mk2-choose.png') -423px -148px;
+}
+#choose-mileena {
+	background: url('../img/Mk2-choose.png') -128px -255px;
+}
+#choose-baraka {
+	background: url('../img/Mk2-choose.png') -226px -255px;
+}
+#choose-scorpion {
+	background: url('../img/Mk2-choose.png') -324px -255px;
+}
+#choose-raiden {
+	background: url('../img/Mk2-choose.png') -423px -255px;
+}
+
+.fighterPanel .smove-head h3 {
+  line-height: 50px;
+  margin-top: 0;
+  padding-left: 60px;
+}
+
+img.avatar {
+    border-radius: 50px;
+    margin: 0 0.2em;
+    float: left;
+	width: 45px;
+	height: 50px;
+}
+
+#avatar-liukang {
+	background: url('../img/Mk2-choose.png') -64px -20px;
+    background-size: 320px;
+}
+#avatar-kunglao {
+	background: url('../img/Mk2-choose.png') -113px -20px;
+    background-size: 320px;
+}
+#avatar-johnnycage {
+	background: url('../img/Mk2-choose.png') -162px -20px;
+    background-size: 320px;
+}
+#avatar-reptile {
+	background: url('../img/Mk2-choose.png') -211px -20px;
+    background-size: 320px;
+}
+#avatar-subzero {
+	background: url('../img/Mk2-choose.png') -64px -74px;
+    background-size: 320px;
+}
+#avatar-shangtsung {
+	background: url('../img/Mk2-choose.png') -113px -74px;
+    background-size: 320px;
+}
+#avatar-kitana {
+	background: url('../img/Mk2-choose.png') -162px -74px;
+    background-size: 320px;
+}
+#avatar-jax {
+	background: url('../img/Mk2-choose.png') -211px -74px;
+    background-size: 320px;
+}
+#avatar-mileena {
+	background: url('../img/Mk2-choose.png') -64px -127px;
+    background-size: 320px;
+}
+#avatar-baraka {
+	background: url('../img/Mk2-choose.png') -113px -127px;
+    background-size: 320px;
+}
+#avatar-scorpion {
+	background: url('../img/Mk2-choose.png') -162px -127px;
+    background-size: 320px;
+}
+#avatar-raiden {
+	background: url('../img/Mk2-choose.png') -211px -127px;
+    background-size: 320px;
+}

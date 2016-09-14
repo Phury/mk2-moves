@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mortal Kombat 2 - moves</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="mortal kombat, mortal kombat 2, mortal kombat ii, moves">
+  <meta name="author" content="Pierre-Henri Van de Velde">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#222" />
+		
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+	</script>
+	<![endif]-->
+    <link rel="favicon" href="img/favicon.ico" />
+	<link rel="canonical" href="http://phury.github.io/mk2.html" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/mk2.css" />
+  
+    <script src="../vendor/react-15.3.0/build/react.js"></script>
+    <script src="../vendor/react-15.3.0/build/react-dom.js"></script>
+    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#choose-fighters-collapse" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#">Mortal Kombat 2</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="choose-fighters-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#baraka">Baraka</a></li>
+					<li><a href="#jax">Jax</a></li>
+					<li><a href="#johnnycage">Johnny Cage</a></li>
+					<li><a href="#kitana">Kitana</a></li>
+					<li><a href="#kunglao">Kung Lao</a></li>
+					<li><a href="#liukang">Liu Kang</a></li>
+					<li><a href="#mileena">Mileena</a></li>
+					<li><a href="#raiden">Raiden</a></li>
+					<li><a href="#reptile">Reptile</a></li>
+					<li><a href="#scorpion">Scorpion</a></li>
+					<li><a href="#shangtsung">Shang Tsung</a></li>
+					<li><a href="#subzero">Sub-Zero</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	
+	<div class="header"></div>
+	<br/><br/>
+  
+				
+    <h2>Info</h2>
+    <div class="info panel">
+        <h3>Babality & Friendship</h3>
+        To perform Babality & Friendship do not use HP or LP during the whole round
+
+        <h3>Dead pool Fatality</h3>
+        To perform the dead pool fatality hold LP+LK and do <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span> HP
+    </div>
+
+
+    <h2>Choose your fighter</h2>
+    <div class="choosePanel panel">
+
+        <a href="#liukang"><img id="choose-liukang" src="img/img_trans.gif" /></a>
+        <a href="#kunglao"><img id="choose-kunglao" src="img/img_trans.gif" /></a>
+        <a href="#johnnycage"><img id="choose-johnnycage" src="img/img_trans.gif" /></a>
+        <a href="#reptile"><img id="choose-reptile" src="img/img_trans.gif" /></a>
+        <br/>
+        <a href="#subzero"><img id="choose-subzero" src="img/img_trans.gif" /></a>
+        <a href="#shangtsung"><img id="choose-shangtsung" src="img/img_trans.gif" /></a>
+        <a href="#kitana"><img id="choose-kitana" src="img/img_trans.gif" /></a>
+        <a href="#jax"><img id="choose-jax" src="img/img_trans.gif" /></a>
+        <br/>
+        <a href="#mileena"><img id="choose-mileena" src="img/img_trans.gif" /></a>
+        <a href="#baraka"><img id="choose-baraka" src="img/img_trans.gif" /></a>
+        <a href="#scropion"><img id="choose-scorpion" src="img/img_trans.gif" /></a>
+        <a href="#raiden"><img id="choose-raiden" src="img/img_trans.gif" /></a>
+    </div>
+
+    <h2>Moves</h2>
+    <div id="app"></div>
+  
+<script type="text/babel" src="js/mk2.js"></script>
+</body>
+</html>

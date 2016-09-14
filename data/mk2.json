@@ -1,0 +1,220 @@
+[
+{
+	"name": "Liu Kang",
+	"id": "liukang",
+	"specials": [
+		{ "high fireball": "Forward, Forward, HP (can be performed in air)" },
+		{ "low fireball": "Forward, Forward, LP" },
+		{ "flying kick": "Forward, Forward, HK" },
+		{ "bicycle kick": "hold LK for 5 seconnds" }
+	],
+	"finishers": [
+		{ "fatality 1": "Down, Forward, Back, Back, HK" },
+		{ "fatality 2": "(hold Block) Down, Forward, Up, Back, Down" },
+		{ "friendship": "Forward, Back, Back, LK" },
+		{ "babality": "Down, Down, Forward, Back, LK" },
+		{ "stage fatality": "Back, Forward, Forward, LK" }
+	]
+},
+{
+	"name": "Kung Lao",
+	"id": "kunglao",
+	"specials": [
+		{ "teleport": "Down, Up" },
+		{ "diving kick": "(in air) d+HK" },
+		{ "hat throw": "Back, Forward, LP (press Up or Down to direct the hat)" },
+		{ "whirlwind spin": "(hold Block), Up, Up, LK" },
+		{ "headbut": "(close) HP" }
+	],
+	"finishers": [
+		{ "fatality 1": "Forward, Forward, Forward, LK (sweep)" },
+		{ "fatality 2": "(hold LP) Back, Forward (release LP) (screen)" },
+		{ "friendship": "Back, Back, Back, Down, HK" },
+		{ "babality": "Back, Back, Forward, Forward, HK" },
+		{ "stage fatality": "Forward, Forward, Forward, HP" }
+	]
+},
+{
+	"name": "Johnny Cage",
+	"id": "johnnycage",
+	"specials": [
+		{ "shadow uppercut": "Back, Down, Back, HP" },
+		{ "shadow kick": "Back, Forward, LK" },
+		{ "ball breaker": "LP+Block" },
+		{ "high green bolt": "Forward, Down, Back, HP" },
+		{ "low green bolt": "Back, Down, Forward, LP" }
+	],
+	"finishers": [
+		{ "fatality 1": "Down, Down, Forward, Forward, LP (close)" },
+		{ "fatality 2": "Forward, Forward, Down, Up (close) (press Down+LP+LK+Block to knock off 3 heads)" },
+		{ "friendship": "Down, Down, Down, Down, HK" },
+		{ "babality": "Back, Back, Back, HK" },
+		{ "stage fatality": "Down, Down, Down, HK" }
+	]
+},
+{
+	"name": "Reptile",
+	"id": "reptile",
+	"specials": [
+        { "acid spit": "Forward, Forward, HP" },
+        { "slide": "Back+LP+LK+Block" },
+        { "forceball": "Back, Back, HP+LP" },
+        { "invisibility": "(hold Block) Up, Up, Down, HP" }
+	],
+	"finishers": [
+		{ "fatality 1": "Back, Back, Down, LP (half screen)" },
+		{ "fatality 2": "(while invisible) Forward, Forward, Down, HK (close)" },
+		{ "friendship": "Back, Back, Down, LK" },
+		{ "babality": "Down, Back, Back, LP" },
+		{ "stage fatality": "Down, Down, Forward, Forward, Block" }
+	]
+},
+{
+	"name": "Sub-Zero",
+	"id": "subzero",
+	"specials": [
+        { "freeze": "Down, Forward, LP" },
+        { "ground freeze": "Down, Back, LK" },
+        { "slide": "Back+LP+LK+Block" }
+	],
+	"finishers": [
+		{ "fatality 1": "Forward, Forward, Down, HK (sweep) then Forward, Down, Forward, Forward, HP (close)" },
+		{ "fatality 2": "(hold LP) Back, Back, Down, Forward (screen)" },
+		{ "friendship": "Back, Back, Down, HK" },
+		{ "babality": "Down, Back, Back, HK" },
+		{ "stage fatality": "Down, Forward, Forward, Block" }
+	]
+},
+{
+	"name": "Shang Tsung",
+	"id": "shangtsung",
+    "specials": [
+        { "one flaming skull": "Back, Back, HP" },
+        { "two flaming skulls": "Back, Back, Forward, HP" },
+        { "three flaming skulls": "Back, Back, Forward, Forward, HP" }
+	],
+	"morphs": [
+        { "Liu Kang": "Back, Forward, Forward, Block" },
+        { "Kung Lao": "Back, Down, Back, HK" },
+        { "Johnny Cage": "Back, Back, Down, LP" },
+        { "Reptile": "(hold Block) Up, Down, HP" },
+        { "Sub-Zero": "Forward, Down, Forward, HP" },
+        { "Kitana": "Block, Block, Block" },
+        { "Jax": "Down, Forward, Back, HK" },
+        { "Mileena": "hold HP for 2 seconds" },
+        { "Baraka": "Down, Down, LK" },
+        { "Scorpion": "(hold Block) Up, Up" },
+        { "Raiden": "Down, Back, Forward, LK" }
+	],
+	"finishers": [
+		{ "fatality 1": "hold HK for 2 seconds (sweep)" },
+		{ "fatality 2": "(hold Block) Up, Down, Up, LK (close)" },
+		{ "fatality 3": "hold LP for 30 seconds (sweep)" },
+		{ "friendship": "Back, Back, Down, Forward, HK" },
+		{ "babality": "Back, Forward, Down, HK" },
+		{ "stage fatality": "(hold Block) Down, Down, Up, Down" }
+	]
+},
+{
+	"name": "Kitana",
+	"id": "kitana",
+	"specials": [
+        { "fan swipe": "Back+HP" },
+        { "fan throw": "Forward, Forward, HP+LP" },
+        { "fan swipe": "Back, Back, Back, HK" },
+        { "flying punch": "Forward, Down, Back, HP" }
+	],
+	"finishers": [
+		{ "fatality 1": "Block, Block, Block, HK (close)" },
+		{ "fatality 2": "(hold LK) Forward, Forward, Down, Forward (release LK) (close)" },
+		{ "friendship": "(hold Block) Down, Down, Down, Up, LK" },
+		{ "babality": "Down, Down, Down, LK" },
+		{ "stage fatality": "Forward, Down, Forward, HK" }
+	]
+},
+{
+	"name": "Jax",
+	"id": "jax",
+	"specials": [
+        { "energy wave": "Forward, Down, Back, HK" },
+        { "ground pound": "hold LK fo 3 seconds then release" },
+        { "gotcha grab": "Forward, Forward, LP (tap)" },
+        { "back breaker": "Block in air" },
+        { "body slam": "tap HP after throw" }
+	],
+	"finishers": [
+		{ "fatality 1": "Block, Block, Block, LP (sweep)" },
+		{ "fatality 2": "(hold LP) Forward, Forward, Forward (close)" },
+		{ "friendship": "(hold Block) Down, Down, Up, Up, LK" },
+		{ "babality": "(hold Block) Down, Up, Down, Up, LK" },
+		{ "stage fatality": "(hold Block) Up, Up, Down, LK" }
+	]
+},
+{
+	"name": "Mileena",
+	"id": "mileena",
+	"specials": [
+        { "sai throw": "hold HP for 3 seconds (*air)" },
+        { "teleport kick": "Forward, Forward, LK" },
+        { "roll": "Back, Back, Down, HK" }
+	],
+	"finishers": [
+		{ "fatality 1": "Forward, Back, Forward, LP (close)" },
+		{ "fatality 2": "hold HK for 5 seconds (close)" },
+		{ "friendship": "(hold Block) Down, Down, Up, HK" },
+		{ "babality": "Down, Down, Down, HK" },
+		{ "stage fatality": "Forward, Down, Forward, LK" }
+	]
+},
+{
+	"name": "Baraka",
+	"id": "baraka",
+	"specials": [
+        { "blade swipe": "Back+HP" },
+        { "blade spark": "Down, Back, HP" },
+        { "double kick": "(close) HK, HK (quickly)" },
+        { "blade shredder": "Back, Back, Back LP" }
+	],
+	"finishers": [
+		{ "fatality 1": "Back, Back, Back, HP (close)" },
+		{ "fatality 2": "Back, Forward, Down, Forward, LP (close)" },
+		{ "friendship": "(hold Block) Up, Up, Forward, Forward, HK" },
+		{ "babality": "Forward, Forward, Forward, HK" },
+		{ "stage fatality": "Forward, Forward, Down, HK" }
+	]
+},
+{
+	"name": "Scorpion",
+	"id": "scorpion",
+	"specials": [
+        { "spear": "Back, Back, LP" },
+        { "teleport": "Down, Back, HP (*air)" },
+        { "air throw": "Block in air" },
+        { "scissors": "Forward, Back, LK" }
+	],
+	"finishers": [
+		{ "fatality 1": "(hold Block) Up, Up, HP (half screen)" },
+		{ "fatality 2": "(hold HP) Down, Forward, Forward, Forward (close)" },
+		{ "friendship": "Back, Back, Down, HK" },
+		{ "babality": "Down, Back, Back, HK" },
+		{ "stage fatality": "Down, Forward, Forward, Block" }
+	]
+},
+{
+	"name": "Raiden",
+	"id": "raiden",
+	"specials": [
+        { "lightning": "Down, Forward, LP" },
+        { "torpedo": "Back, Back, Forward (*air)" },
+        { "teleport": "Down, Up" },
+        { "electric grab": "hold HP for 5 seconds" }
+	],
+	"finishers": [
+		{ "fatality 1": "hold HK for 3 seconds and release, tap Block+LK (close)" },
+		{ "fatality 2": "hold Hp for 4 seconds (close)" },
+		{ "friendship": "Down, Back, Forward, HK" },
+		{ "babality": "(hold Block) Down, Down, Up, HK" },
+		{ "stage fatality": "(hold Block) Up, Up, Up, HP" }
+	]
+}
+]
