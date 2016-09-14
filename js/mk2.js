@@ -85,11 +85,9 @@ var FighterList = React.createClass({
   },
 
   componentDidMount: function() {
-    this.serverRequest = $.get(this.props.source, function(data) {
-//      console.log(data);
-//      var jsonData = data;//;
+    this.serverRequest = $.getJSON(this.props.source, function(data) {
       this.setState({
-        fighters: JSON.parse(data)
+        fighters: data
       });
     }.bind(this));
   },

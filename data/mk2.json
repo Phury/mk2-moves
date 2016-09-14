@@ -6,7 +6,7 @@
 		{ "high fireball": "Forward, Forward, HP (can be performed in air)" },
 		{ "low fireball": "Forward, Forward, LP" },
 		{ "flying kick": "Forward, Forward, HK" },
-		{ "bicycle kick": "hold LK for 5 seconnds" }
+		{ "bicycle kick": "hold LK for 5 seconds" }
 	],
 	"finishers": [
 		{ "fatality 1": "Down, Forward, Back, Back, HK" },
