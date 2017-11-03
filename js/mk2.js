@@ -109,7 +109,7 @@ class FighterList extends React.Component {
 }
 
 ReactDOM.render(
-  <FighterList source='/data/mk2.json' />,
+  <FighterList source='data/mk2.json' />,
   document.getElementById('app')
 );
 
