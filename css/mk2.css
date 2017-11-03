@@ -20,7 +20,7 @@ h1, h2, h3, h4, a.navbar-brand {
     color: #FFB00F;
 }
 
-.navbar-inverse .navbar-brand:hover {
+.navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link:hover {
     color: #FFB00F; 
 }
 
@@ -161,4 +161,8 @@ img.avatar {
 #avatar-raiden {
 	background: url('../img/Mk2-choose.png') -211px -127px;
     background-size: 320px;
+}
+
+.material-icons {
+  font-size: 16px;
 }

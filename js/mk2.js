@@ -7,16 +7,16 @@ String.prototype.replaceAll = function(search, replace) {
 
 function _commandToHtml(command) {
   return {__html: command
-    .replaceAll('Forward', '<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>')
-    .replaceAll('Down', '<span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>')
-    .replaceAll('Back', '<span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>')
-    .replaceAll('Up', '<span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>') 
+    .replaceAll('Forward', '<i class="material-icons">arrow_forward</i>')
+    .replaceAll('Down', '<i class="material-icons">arrow_downward</i>')
+    .replaceAll('Back', '<i class="material-icons">arrow_back</i>')
+    .replaceAll('Up', '<i class="material-icons">arrow_upward</i>') 
   }
 }
 
 
-var CommandTableRow = React.createClass({
-  render: function() {
+class CommandTableRow extends React.Component {
+  render() {
     var moves = this.props.moves;
     var moveList = moves.map(function(elt, i){
       var moveName = Object.keys(elt)[0];
@@ -34,10 +34,10 @@ var CommandTableRow = React.createClass({
       </tbody>
     );
   }
-});
+}
 
-var FighterPanel = React.createClass({
-  render: function() {
+class FighterPanel extends React.Component {
+  render() {
     //console.log(this.props.fighter);
     var morphs;
     if (this.props.fighter.morphs) {
@@ -74,29 +74,27 @@ var FighterPanel = React.createClass({
       </div>
     );
   }
-});
+}
 
 
-var FighterList = React.createClass({
-  getInitialState: function() {
-    return {
-      fighters: []
-    };
-  },
+class FighterList extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { fighters: [] };
+  }
 
-  componentDidMount: function() {
+  componentDidMount() {
     this.serverRequest = $.getJSON(this.props.source, function(data) {
-      this.setState({
-        fighters: data
-      });
+      this.setState({ fighters: data });
+      jqueryHandle();
     }.bind(this));
-  },
+  }
 
-  componentWillUnmount: function() {
+  componentWillUnmount() {
     this.serverRequest.abort();
-  },
+  }
   
-  render: function() {
+  render() {
     var fighterList = this.state.fighters.map(function(elt) {
       return (
         <FighterPanel fighter={elt} key={elt.id} />
@@ -108,8 +106,29 @@ var FighterList = React.createClass({
       </div>
     );
   }
-});
+}
+
 ReactDOM.render(
-  <FighterList source='/mk2/data/mk2.json' />,
+  <FighterList source='/data/mk2.json' />,
   document.getElementById('app')
 );
+
+function jqueryHandle() {
+  // Smooth scroll
+  $(document).on('click', 'a[href^="#"]', function (event) {
+      event.preventDefault();
+      $('html, body').animate({
+          scrollTop: $($.attr(this, 'href')).offset().top - 65
+      }, 500);
+  });
+  
+  // Close mobile navbar on clicks
+  $(function(){ 
+     var navMain = $(".navbar-collapse"); // avoid dependency on #id
+     // "a:not([data-toggle])" - to avoid issues caused
+     // when you have dropdown inside navbar
+     navMain.on("click", "a:not([data-toggle])", null, function () {
+         navMain.collapse('hide');
+     });
+ });
+}
